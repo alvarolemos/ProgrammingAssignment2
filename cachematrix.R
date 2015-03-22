@@ -84,7 +84,7 @@ makeCacheMatrix <- function(mat = matrix()) {
 ## matrix there yet, it calculates and caches it
 cacheSolve <- function(cacheObj, ...) {
         
-        ## Gets the inverse of the function cached in the 'cacheObj'
+        ## Gets the inverse of the matrix cached in the 'cacheObj'
         cachedInverse <- cacheObj$getInverse()
         
         ## If the inverse of the matrix is already cached, returns it
